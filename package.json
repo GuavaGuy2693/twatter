@@ -1,7 +1,7 @@
 {
   "name": "twatter",
   "version": "1.0.0",
-  "description": "",
+  "description": "twitter clone",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
