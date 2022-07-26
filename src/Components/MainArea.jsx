@@ -20,6 +20,7 @@ const Wrapper = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  font-family: "Roboto", sans-serif;
   padding: 20px 0px;
   gap: 15px;
 `;
