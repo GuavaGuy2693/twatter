@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 const Post = () => {
-  return <Postdiv>Post</Postdiv>;
+  return <PostDiv>Post</PostDiv>;
 };
 
 export default Post;
-const Postdiv = styled.div`
+const PostDiv = styled.div`
   width: 600px;
   height: 482px;
 

@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 const Chat = () => {
-  return <Chatdiv>chat</Chatdiv>;
+  return <ChatDiv>chat</ChatDiv>;
 };
 
 export default Chat;
-const Chatdiv = styled.div`
+const ChatDiv = styled.div`
   width: 320px;
   height: 262px;
 

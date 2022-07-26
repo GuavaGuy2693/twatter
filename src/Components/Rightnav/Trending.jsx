@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 const Trending = () => {
-  return <Trendingdiv>trending</Trendingdiv>;
+  return <TrendingDiv>trending</TrendingDiv>;
 };
 
 export default Trending;
-const Trendingdiv = styled.div`
+const TrendingDiv = styled.div`
   width: 320px;
   height: 264px;
 

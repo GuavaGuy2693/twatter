@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 const profile = () => {
-  return <Profilediv>profile</Profilediv>;
+  return <ProfileDiv>profile</ProfileDiv>;
 };
 
 export default profile;
-const Profilediv = styled.div`
+const ProfileDiv = styled.div`
   width: 320px;
   height: 341px;
 

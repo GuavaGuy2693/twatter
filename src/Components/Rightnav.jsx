@@ -4,15 +4,15 @@ import Chat from "./Rightnav/Chat";
 import Trending from "./Rightnav/Trending";
 const Rightnav = () => {
   return (
-    <div>
+    <RightNavDiv>
       <Chat />
       <Trending />
-    </div>
+    </RightNavDiv>
   );
 };
 
 export default Rightnav;
-const Rightnavdiv = styled.div`
+const RightNavDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;

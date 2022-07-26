@@ -4,15 +4,15 @@ import Newpost from "./Feed/Newpost";
 import Post from "./Feed/Post";
 const feed = () => {
   return (
-    <Feeddiv>
+    <FeedDiv>
       <Newpost />
       <Post />
-    </Feeddiv>
+    </FeedDiv>
   );
 };
 
 export default feed;
-const Feeddiv = styled.div`
+const FeedDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;

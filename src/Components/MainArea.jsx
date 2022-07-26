@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import User from "./User";
 import Feed from "./Feed";
-import Rightnav from "../Rightnav";
+import Rightnav from "./Rightnav";
 const MainArea = () => {
   return (
     <Wrapper>

@@ -4,15 +4,15 @@ import Profile from "./User/Profile";
 import Searchbar from "./User/Searchbar";
 const User = () => {
   return (
-    <Userdiv>
+    <UserDiv>
       <Profile />
       <Searchbar />
-    </Userdiv>
+    </UserDiv>
   );
 };
 
 export default User;
-const Userdiv = styled.div`
+const UserDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;

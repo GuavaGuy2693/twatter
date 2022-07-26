@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 const Newpost = () => {
-  return <Newpostdiv>Newpost</Newpostdiv>;
+  return <NewPostDiv>Newpost</NewPostDiv>;
 };
 
 export default Newpost;
-const Newpostdiv = styled.div`
+const NewPostDiv = styled.div`
   width: 600px;
   height: 178px;
 
