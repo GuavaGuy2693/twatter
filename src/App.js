@@ -1,20 +1,45 @@
 import styled from "styled-components";
 import "./styles.css";
-import Login from "./Components/Login";
+import { Home, Login } from "./Components";
+
+const renderPage = (authToken) => {
+  if (authToken)
+    return (
+      <HomeWrapper>
+        <Home />
+      </HomeWrapper>
+    );
+  else
+    return (
+      <LoginWrapper>
+        <Login />
+      </LoginWrapper>
+    );
+};
 
 export default function App() {
-  return (
-    <Wrapper>
-      <Login />
-    </Wrapper>
-  );
+  return renderPage(true);
 }
 
-const Wrapper = styled.div`
+const LoginWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+
+  font-family: "Roboto", sans-serif;
+
+  gap: 10px;
+
+  position: relative;
+
+  background: linear-gradient(116.82deg, #5967df 0.01%, #4fa494 100%);
+`;
+const HomeWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   height: 100vh;
 
   font-family: "Roboto", sans-serif;
