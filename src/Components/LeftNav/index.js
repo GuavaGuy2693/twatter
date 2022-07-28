@@ -1,12 +1,12 @@
 import SearchBar from "./Elements/Searchbar";
-// import Profile from "./Elements/Profile";
+import Profile from "./Elements/Profile";
 import styled from "styled-components";
 
 const LeftNav = () => {
   return (
     <Wrapper>
       <SearchBar />
-      {/* <Profile /> */}
+      <Profile />
     </Wrapper>
   );
 };

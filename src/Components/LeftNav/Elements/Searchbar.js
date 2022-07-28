@@ -10,4 +10,5 @@ export default SearchBar;
 
 const Search = styled(Input)`
   text-align: right;
+  padding-right: 20px;
 `;

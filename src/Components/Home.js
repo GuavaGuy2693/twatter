@@ -1,12 +1,13 @@
 import styled from "styled-components";
 import LeftNav from "./LeftNav";
 // import {} from "./Feed";
-// import {} from "./RightNav";
+import RightNav from "./RightNav";
 
 const Home = () => {
   return (
     <Wrapper>
       <LeftNav />
+      <RightNav />
     </Wrapper>
   );
 };
