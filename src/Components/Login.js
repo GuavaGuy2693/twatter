@@ -22,8 +22,6 @@ const Form = styled.div`
   align-items: center;
   justify-content: center;
 
-  /* font-family: "Roboto"; */
-
   border-radius: 16px;
   padding: 20px 25px;
 

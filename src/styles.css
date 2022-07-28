@@ -3,17 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  padding: 392px 560px;
-  gap: 10px;
-
-  position: relative;
-
-  background: linear-gradient(116.82deg, #5967df 0.01%, #4fa494 100%);
-}

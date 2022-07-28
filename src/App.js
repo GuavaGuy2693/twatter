@@ -15,10 +15,10 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 
   font-family: "Roboto", sans-serif;
 
-  padding: 392px 560px;
   gap: 10px;
 
   position: relative;
