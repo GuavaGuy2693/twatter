@@ -11,7 +11,7 @@ export default Right;
 const Content = styled(Wrapper)`
   width: 16rem;
   justify-content: center;
-  @media (max-width: 800px) {
+  @media (max-width: 820px) {
     display: none;
   }
 `;
