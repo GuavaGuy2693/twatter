@@ -1,11 +1,10 @@
+import { useCookies } from "react-cookie";
+import styled from "styled-components";
+import { Home } from "./Components";
 import "./styles.css";
-import { MainArea } from "./Components";
+
 const App = () => {
-  return (
-    <div className="App">
-      <MainArea />
-    </div>
-  );
+  return <Home />;
 };
 
 export default App;

@@ -1,2 +1,4 @@
-export { default as MainArea } from "./MainArea";
-export { default as User } from "./User";
+import Home from "./Home";
+import Auth from "./Auth";
+
+export { Auth, Home };
