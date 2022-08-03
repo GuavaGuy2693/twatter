@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { HiUserCircle } from "react-icons/hi";
-import { Wrapper, Title, Secondary } from "../../../resources/styles";
+import { HiUserCircle, HiPencil } from "react-icons/hi";
+import { Wrapper, Button, Title, Secondary } from "../../../resources/styles";
 
 const User = () => {
   return (
@@ -12,6 +12,10 @@ const User = () => {
           <Secondary>@handle</Secondary>
         </Text>
       </Info>
+      <Desc>User Info here</Desc>
+      <Edit>
+        <HiPencil size="22px" />
+      </Edit>
     </UserBox>
   );
 };
@@ -19,8 +23,10 @@ const User = () => {
 export default User;
 
 const UserBox = styled(Wrapper)`
+  flex-direction: column;
   border: none;
   border-radius: 0.5rem;
+  padding: 0.5rem;
   background: rgba(225, 225, 225, 0.1);
 `;
 
@@ -30,7 +36,7 @@ const Info = styled(Wrapper)`
   justify-self: flex-start;
   align-self: flex-start;
   border: none;
-  padding: 0.5rem;
+
   gap: 0.2rem;
   justify-content: flex-start;
   align-items: center;
@@ -39,5 +45,14 @@ const Info = styled(Wrapper)`
 const Text = styled(Wrapper)`
   flex-direction: column;
   border: none;
-  gap: 1pt;
+`;
+const Desc = styled(Secondary)`
+  flex-direction: column;
+  color: #e3e3e3;
+  border: none;
+  padding: 0.2rem 0.4rem;
+`;
+
+const Edit = styled(Button)`
+  align-self: flex-end;
 `;

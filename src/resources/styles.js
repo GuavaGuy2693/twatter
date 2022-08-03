@@ -33,7 +33,7 @@ export const Button = styled.button`
 export const Input = styled.input`
   box-sizing: border-box;
   width: 100%;
-  height: 2rem;
+  height: 2.4rem;
   padding: 0.6rem;
   font-size: 12pt;
   color: #e3e3e3;

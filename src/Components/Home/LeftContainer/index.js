@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Search from "./Search";
 import User from "./User";
-import { HiSearch, HiUserCircle } from "react-icons/hi";
+import { HiSearch, HiUserCircle, HiCog } from "react-icons/hi";
 import { Wrapper, Button } from "../../../resources/styles";
 
 const Left = () => {
@@ -14,10 +14,16 @@ const Left = () => {
         <Button>
           <HiUserCircle size="22px" />
         </Button>
+        <Button>
+          <HiCog size="22px" />
+        </Button>
       </Buttons>
       <UI>
         <Search />
         <User />
+        <Setting>
+          <HiCog size="22px" />
+        </Setting>
       </UI>
     </Content>
   );
@@ -35,6 +41,12 @@ const Buttons = styled(Wrapper)`
   @media (max-width: 990px) {
     display: flex;
   }
+`;
+
+const Setting = styled(Button)`
+  align-self: flex-end;
+  border-radius: 0.5rem;
+  background: rgba(225, 225, 225, 0.1);
 `;
 
 const UI = styled(Wrapper)`
