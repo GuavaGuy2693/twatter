@@ -4,6 +4,8 @@
 
 ### _Note: Experimental branch. Only merge if dead sure on it._
 
-> fix word wrap on new post box
-> complete right bar
-> remove all borders (only used from referencing. comment out when not used)
+- add login/signup page
+- fix word wrap on new post box
+- complete right bar
+- remove all borders (only used from referencing. comment out when not used)
+- implement routing (optional)
