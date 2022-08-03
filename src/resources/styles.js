@@ -32,8 +32,9 @@ export const Button = styled.button`
 
 export const Input = styled.input`
   box-sizing: border-box;
+  word-wrap: normal;
   width: 100%;
-  height: 2.4rem;
+  min-height: 2.4rem;
   padding: 0.6rem;
   font-size: 12pt;
   color: #e3e3e3;
@@ -41,6 +42,10 @@ export const Input = styled.input`
   border-radius: 0.5rem;
   background: rgba(225, 225, 225, 0.1);
   outline: none;
+
+  :focus::placeholder {
+    color: transparent;
+  }
 `;
 
 export const Title = styled.div`

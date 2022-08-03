@@ -6,7 +6,9 @@ const User = () => {
   return (
     <UserBox>
       <Info>
-        <HiUserCircle size="60px" />
+        <ImageBox>
+          <HiUserCircle size="50px" />
+        </ImageBox>
         <Text>
           <Title>Username</Title>
           <Secondary>@handle</Secondary>
@@ -55,4 +57,9 @@ const Desc = styled(Secondary)`
 
 const Edit = styled(Button)`
   align-self: flex-end;
+`;
+
+const ImageBox = styled(Wrapper)`
+  border: none;
+  align-self: flex-start;
 `;

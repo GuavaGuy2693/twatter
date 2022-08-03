@@ -7,6 +7,7 @@ const Middle = () => {
   return (
     <Content>
       <NewPost />
+      <Post />
     </Content>
   );
 };
@@ -17,4 +18,7 @@ const Content = styled(Wrapper)`
   justify-content: center;
   width: 30rem;
   padding: 0.5rem;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: flex-start;
 `;

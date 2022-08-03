@@ -11,7 +11,7 @@ const Home = () => {
     <Display>
       <Left />
       <Middle />
-      <Right />
+      {/* <Right /> */}
     </Display>
   );
 };
