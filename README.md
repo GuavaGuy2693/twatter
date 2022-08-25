@@ -7,5 +7,5 @@
 - add login/signup page
 - fix word wrap on new post box
 - complete right bar
-- remove all borders (only used from referencing. comment out when not used)
+- remove all borders (only used for reference. comment out when not used)
 - implement routing (optional)
